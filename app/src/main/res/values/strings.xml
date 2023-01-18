@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">الكروان</string>
+    <string name="plus">زود واحد</string>
+    <string name="minus">شيل</string>
+    <string name="menu">المنيو</string>
+    <string name="countert">0</string>
+    <string name="tot">10</string>
+    <string name="K10">عادي ب 10</string>
+    <string name="K12">عادي ب 12</string>
+    <string name="K15">عادي ب 15</string>
+    <string name="K20">عادي ب 20</string>
+    <string name="K30">عادي ب 30</string>
+    <string name="KK20">بالكبده ب 20</string>
+    <string name="KK25">بالكبده ب 25</string>
+    <string name="KK30">بالكبده ب 30</string>
+    <string name="price">التوتال بالديلفري</string>
+    <string name="finish">ضن</string>
+    <string name="kosharyO">عادي</string>
+
+</resources>

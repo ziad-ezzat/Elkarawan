@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#000000"
+    android:backgroundTint="#000000">
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="117dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/menu"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/totalWithout"
+        android:layout_width="122dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="88dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/tot"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="144dp"
+        android:text="@string/price"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/K10"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/down30k"
+        android:layout_width="88dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="192dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/minus"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/up30k"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="84dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/plus"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/down12"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="192dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/minus"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/up12"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="84dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/plus"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="392dp"
+        android:gravity="center"
+        android:text="@string/KK25"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/down30"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="192dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/minus"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/up30"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="84dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/plus"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/down15"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="192dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/minus"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/up15"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="84dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/plus"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="196dp"
+        android:gravity="center"
+        android:text="@string/K20"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/k15"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/countert"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="456dp"
+        android:gravity="center"
+        android:text="@string/KK30"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/k20"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/countert"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:text="@string/K12"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/k12"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/countert"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="324dp"
+        android:gravity="center"
+        android:text="@string/KK20"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kk30"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="452dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/countert"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/down25k"
+        android:layout_width="88dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="192dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/minus"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/up25k"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="84dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/plus"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/down20k"
+        android:layout_width="88dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="192dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/minus"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/up20k"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="84dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/plus"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/K10"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/countert"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kk20"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/countert"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="260dp"
+        android:gravity="center"
+        android:text="@string/K30"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/down10"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="192dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/minus"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/up10"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="84dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/plus"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="132dp"
+        android:gravity="center"
+        android:text="@string/K15"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kk25"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/countert"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/k30"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/countert"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/down20"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="192dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/minus"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/up20"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="84dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/plus"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="107dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/finish"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
